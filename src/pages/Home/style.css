@@ -1,0 +1,15 @@
+.calculadora {
+    width: 307px;
+    min-width: 307px;
+    padding: 1.3rem;
+    border-radius: .5rem;
+    background-color: #1E2021;
+    min-height: 20vh;
+    box-shadow: 4px 4px 7px #5c5858;
+}
+
+.keyboard {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

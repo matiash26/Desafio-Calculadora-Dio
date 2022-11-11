@@ -1,0 +1,20 @@
+.Display{
+    width: 100%;
+    height: 47px;
+    background-color: #898987;
+    box-shadow: 1px 1px 0px 2px rgba(0, 0, 0, 0.39) inset;
+    border-radius: .2rem;
+}
+.Display input{
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    height: 100%;
+    color: rgb(0 0 0 / 42%);
+    padding: 0 .8rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    direction: rtl;
+}

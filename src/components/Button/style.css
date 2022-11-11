@@ -1,0 +1,33 @@
+.btn {
+    width: 60px;
+    margin: 3px;
+}
+.btn button {
+    height: 60px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 1px rgb(0 0 0 / 75%);
+    border: none;
+}
+.btn button:active{
+    opacity: 0.9;
+    box-shadow: none;
+}
+.normal button{
+    background-color: #FD6C24;
+    border: none;
+    color:#FFFFFF 
+}
+.grow{
+    flex: 2;
+}
+.sides button{
+    background-color: #1E2021;
+    color:#FD6C24;
+}
