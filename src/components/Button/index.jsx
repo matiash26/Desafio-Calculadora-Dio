@@ -1,8 +1,8 @@
 import "./style.css"
-const Button = ({ label = "", flex}) => {
+const Button = ({label,flex, ...rest}) => {
     return (
         <div className={`btn ${flex} $`}>
-            <button type="button">{label}</button>
+            <button type="button" {...rest}>{label}</button>
         </div>
     )
 }
